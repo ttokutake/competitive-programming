@@ -1,5 +1,6 @@
 use std::io::stdin;
 
+#[allow(dead_code)]
 fn read_i32() -> i32 {
   let mut s = String::new();
   stdin().read_line(&mut s).unwrap();
@@ -7,6 +8,7 @@ fn read_i32() -> i32 {
 }
 
 // https://yukicoder.me/problems/no/661
+#[allow(dead_code)]
 pub fn run() {
   let count = read_i32();
   let mut inputs: Vec<i32> = vec![];
